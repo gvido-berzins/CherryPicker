@@ -3,6 +3,13 @@ from dataclasses import dataclass
 
 
 @dataclass
+class ClientArgs:
+    interactive: bool = False
+    target: str = ""
+    pattern: str = ""
+
+
+@dataclass
 class Codebox:
     idx: int
     txt: str

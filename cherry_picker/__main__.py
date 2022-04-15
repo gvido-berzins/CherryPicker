@@ -1,4 +1,5 @@
 from cherry_picker import cli
+from cherry_picker.client import client
 
 
 def main():
@@ -8,6 +9,7 @@ def main():
             print("Starting server")
         case "client":
             print("Starting client")
+            client.single_run(args)
         case _:
             print("Unrecognized mode")
 

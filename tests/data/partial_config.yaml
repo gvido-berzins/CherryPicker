@@ -1,0 +1,6 @@
+database:
+  patterns:
+    - "*.ctb"
+
+server:
+  port: 5000

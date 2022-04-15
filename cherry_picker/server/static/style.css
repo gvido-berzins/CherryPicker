@@ -1,0 +1,29 @@
+body {
+    background-color: #292020;
+    color: #FBFAFA;
+}
+
+.content {
+    border: 1px solid grey;
+    align-content: center;
+}
+
+.search {
+    text-align: center;
+}
+
+.search input {
+    font-size: 200%;
+}
+
+.results {
+    margin: 5%;
+}
+
+.item {
+    background-color: #3c3037;
+    border: 1px solid rgba(247, 252, 255, 0.08);
+    border-radius: 1%;
+    margin: 1%;
+    padding: 2%;
+}

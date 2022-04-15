@@ -3,7 +3,7 @@ database:
     - "*.ctb"
     - "*.db"
   paths:
-    - /home/cny/ssstorage/storage/text/notes/cyber-security/oscp/notes/Lab/
+    - /some/path
 
 server:
   host: 0.0.0.0
