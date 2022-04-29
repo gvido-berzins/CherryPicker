@@ -1,0 +1,13 @@
+[Unit]
+Description=CherryPicker server
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+ExecStart=/src/CherryPicker/venv/bin/python -m cherry_picker server
+WorkingDirectory=/src/CherryPicker
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

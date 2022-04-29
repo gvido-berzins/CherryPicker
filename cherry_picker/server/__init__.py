@@ -14,3 +14,8 @@ def create_app(config_filename: Path = CONFIG_PATH) -> Flask:
 
     app.register_blueprint(home)
     return app
+
+
+def run():
+    app = create_app()
+    app.run()
